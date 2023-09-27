@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <>
       <div className="container flex justify-start mx-auto">
-        <h2 className="text-3xl text-red-400 font-medium">
+        <h2 className="text-3xl font-medium">
           All Issues
         </h2>
       </div>
