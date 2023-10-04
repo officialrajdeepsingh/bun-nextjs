@@ -1,4 +1,5 @@
 import { Card } from "@/components/Card";
+import { Hero } from "@/components/Hero";
 
 let items = [{
   key: 12,
@@ -21,6 +22,7 @@ let items = [{
 export default function Home() {
   return (
     <>
+      <Hero />
       <div className="container flex justify-start mx-auto">
         <h2 className="text-3xl font-medium">
           All Issues
