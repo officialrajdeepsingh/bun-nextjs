@@ -1,4 +1,6 @@
 import Image from "next/image"
+import Link from "next/link";
+
 interface CardType {
   key: number;
   title: string;
@@ -23,12 +25,12 @@ export function Card({ item }: { item: CardType }) {
       <div className="self-center p-6">
         <span className="text-sm text-gray-500">{item.date}</span>
         <p className="mt-3 text-lg font-medium leading-6">
-          <a
-            href="./blog-post.html"
+          <Link
+            href="/p/reading"
             className="text-xl text-gray-800 group-hover:text-gray-500 lg:text-2xl"
           >
             {item.title}
-          </a>
+          </Link>
         </p>
         <p className="mt-2 text-lg text-gray-500">
           {item.description}
