@@ -6,6 +6,9 @@ const nextConfig = {
       {
         hostname: 'miro.medium.com',
       },
+      {
+        hostname: 'assets.website-files.com'
+      }
     ],
   },
 }
