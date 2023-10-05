@@ -9,11 +9,11 @@ export default function contact() {
           <div className="flex-col flex items-stretch gap-[70px]">
             <div className="flex-col flex items-center gap-5 text-center">
               <div className="flex items-center justify-center rounded-[80px] border border-solid border-[#cfe9e7] bg-[#e7eaf1] py-2 text-sm font-semibold uppercase text-black px-5">How it works</div>
-              <h2 className="font-bold text-3xl md:text-5xl">We're Here to Assist You</h2>
+              <h2 className="font-bold text-3xl md:text-5xl">We are Here to Assist You</h2>
               <p className="text-[#575757]">
                 Got questions or need assistance?
                 <br />
-                We're here to help you make the most of your marketing efforts.
+                We are here to help you make the most of your marketing efforts.
               </p>
             </div>
             <div className="grid gap-[58px] max-[991px]:gap-x-8 max-[767px]:gap-y-12 grid-cols-1 md:grid-cols-3">
@@ -25,14 +25,14 @@ export default function contact() {
               </div>
               <div className="flex-col flex w-full items-center gap-6 border border-solid border-[#e7eaf1] bg-white px-8 py-16 text-center transition hover:-translate-y-[10px] hover:translate-x-0 max-[767px]:max-w-[400px] rounded-2xl">
 
-                <Image width={24} height={24} src="https://assets.website-files.com/64e30fb523cefa79f1c3f08f/64e74bb621086db3a081d24d_contact%202.svg" alt="" className="inline-block max-w-full rounded-[100%] h-24 w-24" />
+                <Image width={24} height={24} src="https://assets.website-files.com/64e30fb523cefa79f1c3f08f/64e74bb621086db3a081d24d_contact%202.svg" alt="contact" className="inline-block max-w-full rounded-[100%] h-24 w-24" />
 
                 <Link href="mailto:Email@email.co" className="font-bold text-[#002d40] text-lg lg:text-2xl">Email@email.co</Link>
 
               </div>
               <div className="flex-col flex w-full items-center gap-6 border border-solid border-[#e7eaf1] bg-white px-8 py-16 text-center transition hover:-translate-y-[10px] hover:translate-x-0 max-[767px]:max-w-[400px] rounded-2xl">
 
-                <Image width={24} height={24} src="https://assets.website-files.com/64e30fb523cefa79f1c3f08f/64e74bb6b01ee5b8427e76d9_contact%203.svg" alt="" className="inline-block max-w-full rounded-[100%] h-24 w-24" />
+                <Image width={24} height={24} src="https://assets.website-files.com/64e30fb523cefa79f1c3f08f/64e74bb6b01ee5b8427e76d9_contact%203.svg" alt="Address" className="inline-block max-w-full rounded-[100%] h-24 w-24" />
 
                 <Link href="tel:+11114434534" className="font-bold text-[#002d40] text-lg lg:text-2xl">Address</Link>
 
